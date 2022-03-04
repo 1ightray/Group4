@@ -1,7 +1,9 @@
 # Group4
-Team 4 Project
+# Team 4 Project
 Tweet Sentiment Analysis of Crypto, Dogecoin and Shiba based on trending # and specific users, referencing articles from CNBC.
 
+# Project Goal
+To analyze the impact of Twitter on Crypto Prices based on Sentiment Analysis of hashtags and specific infleuncers
 
 REFERENCES 
 https://www.cnbc.com/2021/02/08/tweets-from-elon-musk-and-celebrities-send-dogecoin-to-a-record-high.html
