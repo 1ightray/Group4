@@ -8,7 +8,7 @@ To analyze the impact of Twitter on Crypto Prices based on Sentiment Analysis of
 # Presentation Link
 https://docs.google.com/presentation/d/1Ci1CHYfLTzEaeCxrYW0VAeGIs-QD0tbjeiqpC1wj7Zw/edit?usp=sharing
 
-# REFERENCES 
+# References
 https://www.cnbc.com/2021/02/08/tweets-from-elon-musk-and-celebrities-send-dogecoin-to-a-record-high.html
 Influencers SnoopDogg, Gene Simmons and Elon Musk
 
