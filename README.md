@@ -1,7 +1,7 @@
 # Group4
 # Team 4 Project
-News API Sentiment Analysis of Crypto, Dogecoin based on trending # and specific users, referencing articles from CNBC.
-Analysis Period: 2021
+News API, Sentiment Analysis of Crypto, Dogecoin based on Title Compound
+Analysis Period: 1 Month due to limitations of data
 
 # Project Goal
 To analyze the impact of Twitter on Crypto Prices based on Sentiment Analysis of hashtags and specific infleuncers
