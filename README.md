@@ -5,7 +5,10 @@ Libraries used: News API, Vader Sentiment Analysis of Crypto, Dogecoin based on 
 Analysis Period: 1 Month due to limitations of data
 
 # Project Goal
-To analyze the impact of Newsapi word analysis on Crypto Prices based on Sentiment Analysis of hashtags and specific infleuncers
+To analyze the impact of Newsapi word analysis on Crypto Prices based on Sentiment Analysis, logistic regression and random forest classifier
+the prediction model extra library that'll be used is Pytorch and this was chosen because it includes many models similar to class
+such as NLP and LSTM 
+For LSTM window size 7 will be chosen for the crypto price instead of the norm of a 5 day window size for stocks 
 
 Description
 The first notebook gathers crypto prices and saves it into a csv file in order to be careful of the news api limits.
@@ -35,7 +38,10 @@ https://github.com/MartinBeckUT/TwitterScraper/blob/master/snscrape/python-wrapp
 
 
 
-Project 2 (which notebooks used)
+Project 2 (logistic regression uses unit 11 classification notebooks class 3 activity 9 credit card fraud,
+random forest notebook uses unit 11 classification notebooks class 2 activity 6 random forest,
+sentiment analysis uses unit 12 NLP class 2 activity 6 vader sentiment analysis) 
+
 Code Snippets
 
 //
