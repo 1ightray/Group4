@@ -202,7 +202,7 @@ Dogecoin had a correlation of 0.2748 between Title Compound Average to Closing p
     
 Bitcoin had a correlation of 0.0991 between Title Compound Average to Closing prices. However it had a correlation of -0.0981 between the title sentiment to Closing prices.  
 
-Thus, basis coorelation we believe that news sentiment may not be the only factor impacting prices and there will be other sources such as Twitter, Reddit, Discord or other factors apart from news or social media data that impacts price.
+ Thus, basis coorelation we believe that news sentiment may not be the only factor impacting prices and there will be other sources such as Twitter, Reddit, Discord or other factors apart from news or social media data that impacts price.
 
 #### How do Classification and Regression models compare in future prediction ?
     
@@ -212,11 +212,11 @@ Thus both play an important role depending on the investor's requirement.
 
 * <b> Classification Model :<b> 
 
-In Classification Model, the investor should aim for a higher accuracy score. In the current model both the logsitic regression model and random forest classifier have a low accruacy score in the range of 43-57%
+    In Classification Model, the investor should aim for a higher accuracy score. In the current model both the logsitic regression model an random forest classifier have a low accruacy score in the range of 43-57%
 
 * <b> Regression Model : <b> 
 
-In Regression Model, the inverstor should compare the Root Mean Squared Error (RMSE) and R-squared (R2). RMSE measures the average error performed by the model in predicting the outcome for an observation. The lower the RMSE, the better the model. R2 is the proportion of variation in the outcome that is explained by the predictor variables. In multiple regression models, R2 corresponds to the squared correlation between the observed outcome values and the predicted values by the model. The Higher the R-squared, the better the model.
+    In Regression Model, the inverstor should compare the Root Mean Squared Error (RMSE) and R-squared (R2). RMSE measures the average error performed by the model in predicting the outcome for an observation. The lower the RMSE, the better the model. R2 is the proportion of variation in the outcome that is explained by the predictor variables. In multiple regression models, R2 corresponds to the squared correlation between the observed outcome values and the predicted values by the model. The Higher the R-squared, the better the model.
     
 In this particluar study, there was no key difference between the logistic regression classifier model and random forest classifier model. However in the regression model, the XGBoost Regressor Model has a higher R-Squared compared to the LSTM model.
     
@@ -224,7 +224,8 @@ In this particluar study, there was no key difference between the logistic regre
 #### What to consider in future investment decisions? 
 News Sentiment alone is not the only factor to consider in predicting price trend movements. Investors should review other variables such as daily returns along with news sentiment for a more accurate investment as seen in the XGBoost Regressor Model.
     
-Our study is limited to one month of news and crypto price and may vary with adding analysis over a larger time frame. Also the study is limited only to title sentiment. So it is important to check multiple sources and multiple feature variables.
+Our study is limited to one month of news and crypto price and may vary with adding analysis over a larger time frame. <br />
+Also the study is limited only to title sentiment. So it is important to check multiple sources and multiple feature variables. <br />
 
 ---
 
