@@ -23,8 +23,8 @@ b) Evaluate and Analyze through Machine learning models on how the news sentimen
 * [Technologies](#technologies)
 * [News Sentiment](#News-Sentiment)
 * [Closing Prices and Title Compound Trend](#Closing-Prices-and-Title-Compound-Trend)
-* [Machine Learning Models : Methodology](#Machine-Learning-Models-:-Methodology)
-* [Machine Learning Models : Results](#Machine-Learning-Models-:-Results)
+* [Machine Learning Models (Methodology)](#Machine-Learning-Models-Methodology)
+* [Machine Learning Models (Results)](#Machine-Learning-Models-Results)
 * [Conclusion](#Conclusion)
 * [Contributors](#contributors)
 * [References and Resources](#references-and-resources)
@@ -78,14 +78,19 @@ Bitcoin had 16 Negative, 10 Neutral and 3 Positive Sentiment
 
 ---
 ## Closing Prices and Title Compound Trend
-* <b>Dogecoin Closing Prices and Title Compund Trend</b>: Correlation of Title Compound Average to Closing prices is 0.2748
+* <b>Dogecoin Closing Prices and Title Compund Trend</b>: 
+Correlation of Title Compound Average to Closing prices is 0.2748 <br />
+
 ![dogecoin_closing](Images/dogecoin_closing.png) 
-* <b>Bitcoin Closing Prices and Title Compund Trend</b>: Correlation of Title Compound Average to Closing prices is 0.0991. <br />
+
+* <b>Bitcoin Closing Prices and Title Compund Trend</b>: 
+Correlation of Title Compound Average to Closing prices is 0.0991. <br />
+
 ![bitcoin_closing](Images/bitcoin_closing.png) 
 
 
 ---
-## Machine Learning Models : Methodology
+## Machine Learning Models Methodology
 
 ## A) Classification Methodology
 
@@ -107,7 +112,7 @@ As part of the data organization under regression methodology, we used title sen
 Extreme Gradient Boosting (XGBoost) is an open-source library that provides an efficient and effective implementation of the gradient boosting algorithm. We used this model to enhance the feature set and predict the crypto prices.
 
 ---
-## Machine Learning Models : Results
+## Machine Learning Models Results
 
 ## A) Results for Dogecoin
 
@@ -163,12 +168,13 @@ Extreme Gradient Boosting (XGBoost) is an open-source library that provides an e
 ## Conclusion
 
 
-### Classification Models
+#### Classification Models <br />
+    
 The Dogecoin News Sentiment and Price trend prediction had a higher accuracy score compared to Bitcoin.
 
-However with Accuracy scores in the range of 43-57%%, the classification approach did not yield much confidence so as to justify usage to correlate stock movement with News Sentiments.
+However with Accuracy scores in the range of 43-57%, the classification approach did not yield much confidence so as to justify usage to correlate stock movement with News Sentiments.
 
-### Regression Models
+#### Regression Models <br />
 
 Just by News Sentiment, we believe one feature is not sufficient to predict the closing price of Dogecoin or Bitcoin. As seen in the LSTM prediction both the Dogecoin and Bitcoin had a negative R-Squared. The negative R-squared value means that your prediction tends to be less accurate than the average value of the data set over time.
 
@@ -177,7 +183,7 @@ However as we add more features such as Crypto Volume and Daily Percentage Retur
 
 ---
 
-### What is the news sentiment of Dogecoin and Bitcoin in the past one month ?
+#### What is the news sentiment of Dogecoin and Bitcoin in the past one month ?
 * <b> Dogecoin :
     
 Dogecoin had 15 Neutral, 11 Negative and 3 Positive Sentiment news reports.
@@ -190,7 +196,7 @@ Bitcoin had 16 Negative, 10 Neutral and 3 Positive Sentiment reports.
 
 ![bit_vader_summary](Images/bit_vader_summary.png) <br />  
 
-### How does News Sentiment correlate to the closing prices of Dogecoin and Bitcoin ?
+#### How does News Sentiment correlate to the closing prices of Dogecoin and Bitcoin ?
 
 Dogecoin had a correlation of 0.2748 between Title Compound Average to Closing prices. However it had a correlation of 0.5062 between the title sentiment to Closing prices. 
     
@@ -198,7 +204,7 @@ Bitcoin had a correlation of 0.0991 between Title Compound Average to Closing pr
 
  Thus, basis coorelation we believe that news sentiment may not be the only factor impacting prices and there will be other sources such as Twitter, Reddit, Discord or other factors apart from news or social media data that impacts price.
 
-### How do Classification and Regression models compare in future prediction ?
+#### How do Classification and Regression models compare in future prediction ?
     
 Classification predictive modeling problems are different from regression predictive modeling problems.Classification is the task of predicting a discrete class label. Regression is the task of predicting a continuous quantity.
     
@@ -215,20 +221,24 @@ Thus both play an important role depending on the investor's requirement.
 In this particluar study, there was no key difference between the logistic regression classifier model and random forest classifier model. However in the regression model, the XGBoost Regressor Model has a higher R-Squared compared to the LSTM model.
     
 
-### What to consider in future investment decisions? 
+#### What to consider in future investment decisions? 
 News Sentiment alone is not the only factor to consider in predicting price trend movements. Investors should review other variables such as daily returns along with news sentiment for a more accurate investment as seen in the XGBoost Regressor Model.
     
 Our study is limited to one month of news and crypto price and may vary with adding analysis over a larger time frame. <br />
 Also the study is limited only to title sentiment. So it is important to check multiple sources and multiple feature variables. <br />
 
-(Limitation of one month news - NewsAPI free version allows only one month of news and limited to 100 articles. If we had more time and access to compile more news articles the study would be enhanced)
+---
+
+## Future Steps
+    
+The current NewsAPI free version allows only one month of news and limited to 100 articles. We will work on building the effectiveness of the model by gathering data from other sources and extending the date range to at least one year.
     
 ---
 
 ## Contributors
 Our team: 
     
-[Gwyen](https://github.com/1ightray) <br />
+[Gwendalynn](https://github.com/1ightray) <br />
 [Hira](https://github.com/HiraNaseer) <br />
 [Jalal](https://github.com/jalalhuseynov) <br />
 [Matthew](https://github.com/Valeriangrip) <br />
